@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { MdEdit } from "react-icons/md";
-import Modal from "../components/modal";
+import Modal from "../components/Modal";
 import { useState } from "react";
 
 function Home({ todos, deleteTodo, editedTodo }) {
